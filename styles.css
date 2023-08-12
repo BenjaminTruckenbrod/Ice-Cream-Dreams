@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #C3504D;
+  --blue: #3E7E95;
+  --cream: #F9FCE7;
+  --white: #ffffff;
+}
+
+.icd-h2_white h2{
+  font-family: 'Passion One', cursive;
+  font-size: 36px;
+  color: var(--white);
+  text-align: center;
+  font-style: normal;
+  padding-bottom: 15px;
+}
+
+.icd-h2_red h2{
+  font-family: 'Passion One', cursive;
+  font-size: 36px;
+  color: var(--red);
+  text-align: center;
+}
+
+                        /* ~~~HEADER~~~ */
+
+.icd-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icd-small-logo{
+  margin-left: 10px;
+}
+
+.icd-nav_list-item{
+  color:var(--white);
+  font-family: 'Roboto', sans-serif;
+  text-decoration:none;
+  list-style: none;
+  font-style: normal;
+  font-weight: 700; 
+}
+
+.icd-nav-img{
+  margin-right: 10px;
+}
+
+.icd-nav_main-list{
+  display:none;
+}
+
+.icd-nav_main-list, .icd-small-logo, .flavors-by-2 {
+  flex: 1;
+}
+
+                    /* ~~~HERO SECTION~~~ */
+.icd-hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.container-cream1 {
+  background-color: var(--cream);
+  padding: 24px;
+}
+
+
+.icd-logo{
+  margin-bottom: 16px;
+}
+
+.icd-logo img{
+  max-height: 95px;
+}
+
+.icd-h1 h1{
+  font-family: 'Passion One', cursive;
+  font-size: 36px;
+  line-height: 72%;
+  display: flex;
+  text-align: center;
+  color: var(--red);
+}
+
+                    /* ~~~FEATURED FLAVORS~~~ */
+
+.icd-flavor-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icd-flavor-option img{
+  max-width: 100%;
+  border-radius: 50%;
+  max-height: 125px;
+  border: 4px solid var(--cream);
+}
+
+.icd-flavor-option p{
+  font-family: 'Passion One', cursive;
+  font-size: 24px;
+  font-style: normal;
+  color: var(--white)
+}
+
+                          /* ~~~LOCATIONS~~~ */     
+
+                                                          
+.icd-locations-option {
+  border: 4px solid var(--red);
+  margin: 24px;
+  max-width: 300px;
+  min-height: 375px;
+}
+
+.icd-locations-option img{
+  max-width: 100%;
+}
+
+.icd-location-info{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 20px;
+}
+
+.location-pic{
+  display: block;
+}
+
+.location-heading h3{
+  background-color: var(--red);
+  color: var(--white);
+  font-family: 'Passion One', cursive;
+  padding: 8px;
+  font-style: normal;
+}
+
+.icd-locations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+                            /* ~~~ORDER FORM~~~ */
+
+.inputBoxGroup{
+  display:flex;
+  flex-direction: column;
+  padding: 5px;
+
+}
+
+.inputBoxGroup label{
+  padding-bottom: 2px;
+}
+
+.inputBoxGroup input{
+  min-width: 256px;
+  min-height: 32px;
+  border-radius: 2px;
+  border: 1px solid white;
+}
+
+.icd-submit-button{
+  font-family: 'Roboto';
+  min-width: 256px;
+  min-height: 44px;
+  border-radius: 8px;
+  background-color: var(--white);
+  color: var(--red);
+  text-transform: uppercase;
+  align-items: center;
+  border-style: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.icd-sub-container{
+  padding: 15px;
+  padding-bottom: 3rem;
+}
+
+.icd-form-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: var(--white);
+}
+
+.inputBox{
+  width: 200px;
+}
+
+.flavors-by-2{
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.wrap-text{
+  max-width: 255px;
+  text-align: left;
+}
+
+.icd-check{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  padding: 15px;
+  align-items: flex-start;
+  width: 290px;
+}
+
+.icd-check-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icd-check-item{
+  padding: 5px;
+  margin-right: 7.5rem;
+  font-size: 18px;
+  padding-bottom: 12px;
+
+}
+
+.checkBoxLabel{
+  margin-left: 1.5em;  
+}
+
+.icd-pickup{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 5px
+}
+
+.icd-pickup select{
+  border-radius: 2px;
+  border: 1px solid white;
+}
+
+.icd-pickup label{
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+
+.dropdown option{
+  margin-left: 20px;
+}
+
+.form-text{
+  padding-top: 20px;
+}
+
+.dropdown{
+  min-height: 45px;
+  min-width: 256px;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 30px;
+  font-size: 16px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" fill="%23C0C0C0" class="bi bi-chevron-down" viewBox="0 0 16 16" preserveAspectRatio="none"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    /*background-size: .65em auto, 100%;*/
+}
+
+.dropdown option{
+  margin-left: 20px;
+}
+.wrap-text{
+  font-size: 18px;
+}
+
+.icd-sub-container{
+  
+  margin-top: 8px;
+  
+}
+
+                            /* ~~~FOOTER~~~ */
+.icd-footer-text{
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+
+                          /* ~~~MEDIA QUERY~~~ */
+
+@media screen and (min-width: 481px){
+
+  .icd-footer-text{
+    font-size:18px;
+  }
+
+  .icd-submit-button{
+    align-items: flex-start;
+  }
+
+  .form-text{
+    width: 515px;
+    font-size: 18px;
+    padding-top: 0px;
+  }
+
+  .form-by-2{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    padding-bottom: 0px;
+  }
+
+  .icd-dropdowns{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .inputBoxGroup input{
+    min-height: 37px;
+  }
+
+  .wrap-text{
+    max-width: 500px;
+    padding-top:30px;
+  }
+
+  .icd-hero-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .icd-check{
+    width: 550px;
+  }
+
+  .icd-check-group{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icd-check-item{
+    padding-bottom: 5px;
+  }
+
+  .flavors-by-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    max-width: 610px;
+  }
+
+  .icd-nav-img{
+    display: none;
+  }
+
+  .icd-h2_white h2{
+    font-weight: 700;
+    font-size: 72px;
+  }
+
+  .icd-h2_red h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+  }
+
+  .icd-h1 h1{
+    font-size: 124px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .icd-locations-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+  }
+
+  .icd-flavors-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 24px;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+
+  .featured-flavors-container {
+    padding: 6px;
+  }
+
+  .icd-flavor-option img{
+    max-width: 100%;
+    min-height: 225px;
+  }
+
+  .icd-sub-container{
+    width:560px;
+    padding-bottom: 3rem;
+    margin-top: 0px;
+  }
+  
+  .icd-nav_main-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    max-width: 450px;
+  }
+
+  .container-cream1 {
+    background-color: var(--cream);
+    padding: 62px;
+  }
+
+  .icd-logo img{
+    max-height: 203px;
+  }
+
+  .dropdown{
+    min-width: 256px;
+    max-height: 45px;
+  }
+
+  .icd-submit-button{
+    min-width: 144px;
+    min-height: 44px;
+  }
+
+  .container-cream1 {
+    background-color: var(--cream);
+    padding: 60px;
+  }
+  
+  .icd-pickup{
+    margin-bottom: 15px;
+  }
+}
+
+
+.container-red {
+  background-color: var(--red);
+  padding: 8px;
+}
+
+.container-red00 {
+  background-color: var(--red);
+  padding: 5px;
+  padding-top: 35px;
+}
+
+.container-blue1{
+  background-color: var(--blue);
+  padding-top: 30px;
+  /*padding-bottom: 24px;*/
+  min-height: 504px;
+}
+
+.container-blue2{
+  background-color: var(--blue);
+  padding: 24px;
+}
+
+
+
+.container-cream2 {
+  background-color: var(--cream);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
